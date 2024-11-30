@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .btn
+      {
+        width: 100px;
+        height: 50px;
+        text-decoration: none;
+        border: 3px solid green;
+        padding: 8px;
+        color: black;
+   
+      }
+.btn:hover
+{
+    background-color: green;
+    
+}
+ul
+{
+    background-color: yellow;
+    list-style-type: square;
+
+}
+li::marker 
+{
+color: orange;
+}
+#pos
+{
+    position: absolute;
+    top: 130px;
+    z-index: -1;
+}
+    </style>
+</head>
+<body><br>
+
+    <a  href="#" class="btn">This is a link</a>
+    <ul>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Coca Cola</li>
+    </ul>
+    <h2>This is Heading</h2>
+    <p>Because the image  has z-index of -1, it will be palced behind Test.</p>
+<img src="../media/paper-8147974_640.jpg" alt="" id="pos">
+    
+</body>
+</html>
